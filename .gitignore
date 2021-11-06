@@ -1,0 +1,7 @@
+#OS junk files
+*.DS_Store
+
+#personal and secret files
+database/
+boas perguntas.txt
+.ipynb_checkpoints/
