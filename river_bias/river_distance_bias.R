@@ -182,5 +182,8 @@ ggplot(river_dist_fine, aes(x = dist, fill = Points)) +
   scale_color_manual(values=c("#0072B2", "#E69F00"))+
   scale_fill_manual(values=c("#0072B2", "#E69F00"))+
   labs(title="River biased sampling",x="Distance to the closest river (in º)", y = "Density")+
-  annotate("text",label="Wilcoxon test – p<0.001",x=0.8,y=7,lwd=6)
+  annotate("text",label="Wilcoxon test – p<0.001",x=0.8,y=4.5,lwd=6)+
+  theme(legend.position = c(0.8,0.8))
 
+png(file="river_bias/density_plot_river_distances.png",width = 400,height = 400)
+dev.off()
