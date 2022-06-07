@@ -20,3 +20,5 @@ My goal here was to explore the database in order to provide the institution:
 **A visual example of how powerful these analyses can be. In white and blue, you can see places with no or very few samples in the collection. This means, places we need to go and explore more.**
 
 <p align="center"> <img src=https://github.com/nnbuainain/inpa_bird_collection/blob/main/gis/results/final_maps/collecting_effort_point_count.jpg width="500" alt="INPA logo" class="center"></p>
+
+<p align="center"> <img src=https://github.com/nnbuainain/inpa_bird_collection/blob/main/river_bias/river_bias_sampling_plate.png width="500" alt="INPA logo" class="center"></p>
